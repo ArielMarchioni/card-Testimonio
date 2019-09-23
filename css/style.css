@@ -1,0 +1,71 @@
+*{
+	box-sizing: border-box;
+}
+
+
+.card-contenido{
+	margin: 0 auto;
+	width: 355px;
+	border-radius: 10px;
+	box-shadow: 0 3px 15px rgba(51, 51, 51, 0.2);
+	padding: 30px;
+	background-color: lightgrey;
+	margin-top: 50px;
+	max-width: 100%;
+	
+}
+  .card-contenido:hover{
+    	
+	transform: scale(1.1);
+	transition: 1s;
+}
+
+    
+
+.imagen-card{
+    width: 120px;
+    height: 120px;
+    border: 5px solid #fff;
+    box-shadow: 0 0 0 7px #673ab7;
+    background-image: url(../media/shiba.jpg);
+    background-size: cover;
+    margin: 0 auto;
+
+}
+
+
+
+
+.center{
+	text-align: center;
+}
+
+.titulo{
+	font-size: 25px;
+	padding-top: 30px;
+	margin-bottom: 30px;
+}
+	
+
+
+.descripcion{
+	line-height: 25px;
+}
+
+.subtitulo{
+	text-transform: uppercase;
+	color: #999;
+
+}
+
+.puntuacion{
+	margin-top: 50px;
+}
+
+.puntos{
+	width: 55px;
+
+}
+
+
+
